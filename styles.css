@@ -75,7 +75,7 @@ body {
   color: #fff;
 }
 
-.homeContent li {
+.homeContent ul {
   list-style-type: none;
   margin-left: -2.5rem;
   margin-top: -0.6rem;
@@ -116,9 +116,10 @@ body {
     font-size: 1rem;
   }
 
-  .homeContent li {
+  .homeContent ul {
+    display: flex;
+    justify-content: flex-start;
     list-style-type: none;
-    margin-left: -13.5%;
   }
 
   .homeContent img {
@@ -147,7 +148,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .homeContent li {
+  .homeContent ul {
     list-style-type: none;
     margin-left: -3.5%;
   }
