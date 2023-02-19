@@ -226,7 +226,21 @@ body {
 }
 
 .tools-lists li {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.language-icon img {
+  display: inline-block;
+  margin-right: 0.5em;
+  width: 15px;
+  height: 15px;
+  margin-right: 15%;
+}
+
+.framework-text {
+  display: grid;
+  justify-content: center;
+  margin-top: -25px;
 }
 
 @media screen and (min-width: 375px) {
