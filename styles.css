@@ -98,8 +98,12 @@ body {
   place-items: center;
 }
 
-.recent-works h2, 
-a {
+.recent-works h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-works a {
   display: flex;
   justify-content: center;
 }
@@ -123,9 +127,7 @@ a {
   color: #fff;
   border: none;
   text-decoration: none;
-
   display: inline-block;
-  
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
@@ -199,7 +201,6 @@ a {
   border: none;
   text-decoration: none;
   display: inline-block;
-
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
@@ -277,9 +278,7 @@ a {
     color: #fff;
     border: none;
     text-decoration: none;
-
     display: inline-block;
-
     font-size: 16px;
     padding: 12px 24px;
     margin-left: 5%;
@@ -303,7 +302,6 @@ a {
     margin-left: 5%;
     width: 295px;
     height: 81px;
-  
   }
 
   .project-description {
@@ -339,9 +337,7 @@ a {
     color: #fff;
     border: none;
     text-decoration: none;
-
     display: inline-block;
-
     font-size: 16px;
     height: 48px;
     width: 327px;
