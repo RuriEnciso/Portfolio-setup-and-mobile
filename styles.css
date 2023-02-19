@@ -98,14 +98,14 @@ body {
   place-items: center;
 }
 
-.recent-works h2, a {
+.recent-works h2, 
+a {
   display: flex;
-  justify-content:center
+  justify-content: center;
 }
 
 .first-line {
   width: 87%;
-  height: 0px;
   border: 0.5px solid #212121;
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ body {
 }
 
 .recent-works h3 {
-  color: #091E42;
+  color: #091e42;
   font-family: 'Crete Round', serif;
   margin-left: 5%;
 }
@@ -122,8 +122,10 @@ body {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none; 
-  display: inline-block; 
+  text-decoration: none;
+
+  display: inline-block;
+  
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
@@ -149,7 +151,7 @@ body {
 }
 
 .container {
-  background-image: url(./images/Placeholder\ \(1\).png);
+  background-image: url(./images/placeholder.png);
   background-repeat: no-repeat;
   padding-bottom: 50%;
   margin: 5%;
@@ -195,8 +197,9 @@ body {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none; 
-  display: inline-block; 
+  text-decoration: none;
+  display: inline-block;
+
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
@@ -204,7 +207,6 @@ body {
 
 .abouteMe-line {
   width: 87%;
-  height: 0px;
   border: 0.5px solid #fff;
   display: flex;
   justify-content: center;
@@ -261,7 +263,7 @@ body {
     height: 0.95rem;
     margin-right: 1rem;
   }
-  
+
   .tools {
     display: flex;
     justify-content: flex-start;
@@ -274,15 +276,17 @@ body {
     background-color: #ff6b00;
     color: #fff;
     border: none;
-    text-decoration: none; 
-    display: inline-block; 
+    text-decoration: none;
+
+    display: inline-block;
+
     font-size: 16px;
     padding: 12px 24px;
     margin-left: 5%;
   }
 
   .container {
-    background-image: url(./images/Placeholder\ \(1\).png);
+    background-image: url(./images/placeholder.png);
     background-repeat: no-repeat;
     padding-bottom: 50%;
     margin: 5%;
@@ -298,7 +302,8 @@ body {
     margin-top: 25%;
     margin-left: 5%;
     width: 295px;
-    height: 81px; 
+    height: 81px;
+  
   }
 
   .project-description {
@@ -328,12 +333,15 @@ body {
     color: #fff;
     background: rgba(255, 255, 255, 0.24);
   }
+
   .project-button {
     background-color: #ff6b00;
     color: #fff;
     border: none;
-    text-decoration: none; 
-    display: inline-block; 
+    text-decoration: none;
+
+    display: inline-block;
+
     font-size: 16px;
     height: 48px;
     width: 327px;
