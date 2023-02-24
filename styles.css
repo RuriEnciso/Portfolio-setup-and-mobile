@@ -254,14 +254,13 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .line-3 {
-  /*position: absolute;*/
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px /2 - 0.5px);
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
@@ -293,9 +292,9 @@ textarea::placeholder {
   }
 
  .homeContent ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
   }
 
   .homeContent img {
@@ -391,22 +390,16 @@ textarea::placeholder {
     background-color: #fff;
   }
 
-  form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-  }
-
 .input-padron {
-    display: block;
-    margin: 0 5% 20px;
-    padding: 10px 25px;
-    width: 50%;   
-    border: none; 
+  display: block;
+  margin: 0 5% 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border: none;
   }
 
   .text-form {
-    color: #172B4D;
+    color: #172b4d;
     font-family: 'Inter', serif;
     font-weight: 700;
     font-size: 32px;
@@ -414,6 +407,7 @@ textarea::placeholder {
     text-align: center;
     margin: 120px 8% 1px;
   }
+
   .form-buttom {
     background-color: #ff6b00;
     color: #fff;
@@ -424,6 +418,7 @@ textarea::placeholder {
     padding: 12px 24px;
     margin-left: 30%;
   }
+
   .last-icons {
     display: flex;
     justify-content: center;
@@ -432,14 +427,14 @@ textarea::placeholder {
     margin-top: 1rem;
   }
 
-  .last-icons img{
+  .last-icons img {
     height: 1.2rem;
     margin-right: 1rem;
   }
 
   form hr {
     width: 87%;
-    background: #DBD8D7;
+    background: #dbd8d7;
   }
 }
 
