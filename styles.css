@@ -260,7 +260,7 @@ textarea::placeholder {
 .line-3 {
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px /2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
@@ -291,10 +291,10 @@ textarea::placeholder {
     font-size: 1rem;
   }
 
- .homeContent ul {
-  display: flex;
-  justify-content: flex-start;
-  list-style-type: none;
+  .homeContent ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
   }
 
   .homeContent img {
@@ -390,12 +390,12 @@ textarea::placeholder {
     background-color: #fff;
   }
 
-.input-padron {
-  display: block;
-  margin: 0 5% 20px;
-  padding: 10px 25px;
-  width: 50%;
-  border: none;
+  .input-padron {
+    display: block;
+    margin: 0 5% 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: none;
   }
 
   .text-form {
