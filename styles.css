@@ -382,6 +382,21 @@ body {
     border: none; 
   }
 
+  .input-padron:nth-child(3)::placeholder {
+   font-size: 40px;
+   color: black;
+  }
+
+  hr{
+    position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 - 0.5px);
+bottom: 18px;
+background: #0D151E;
+border-radius: 10px;
+  }
+
   .text-form {
     color: black;
     font-family: 'Inter', serif;
