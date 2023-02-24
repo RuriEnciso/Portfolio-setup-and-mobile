@@ -244,6 +244,14 @@ body {
   margin-top: -25px;
 }
 
+.input-padron {
+  display: block;
+  margin: 0 5% 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border: none;
+}
+
 textarea::placeholder {
   left: 12px;
   right: 12px;
@@ -398,6 +406,15 @@ textarea::placeholder {
     border: none;
   }
 
+  textarea {
+    display: block;
+    margin: 0 5% 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: none;
+    width: 79%;
+  }
+
   .text-form {
     color: #172b4d;
     font-family: 'Inter', serif;
@@ -417,6 +434,15 @@ textarea::placeholder {
     font-size: 16px;
     padding: 12px 24px;
     margin-left: 30%;
+    cursor: pointer;
+  }
+
+  .form-buttom:hover {
+    transform: scale(1.1) rotate(1deg);
+  }
+
+  .form-buttom:active {
+    background-color: #172b4d;
   }
 
   .last-icons {
