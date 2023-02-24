@@ -378,7 +378,8 @@ body {
     display: block;
     margin: 0 5% 20px;
     padding: 10px 25px;
-    width: 50%;    
+    width: 50%;   
+    border: none; 
   }
 
   .text-form {
