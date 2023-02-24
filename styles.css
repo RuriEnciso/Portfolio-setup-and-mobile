@@ -383,8 +383,11 @@ body {
 
   .text-form {
     color: black;
-    font-family: 'Crete Round', serif;
-    font-weight: bold;
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
   }
   .form-buttom {
     background-color: #ff6b00;
