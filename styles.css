@@ -244,6 +244,29 @@ body {
   margin-top: -25px;
 }
 
+textarea::placeholder {
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+}
+
+.line-3 {
+  /*position: absolute;*/
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 375px) {
   .homeContent {
     padding-left: 6%;
@@ -382,28 +405,14 @@ body {
     border: none; 
   }
 
-  .input-padron:nth-child(3)::placeholder {
-   font-size: 40px;
-   color: black;
-  }
-
-  hr{
-    position: absolute;
-width: 134px;
-height: 5px;
-left: calc(50% - 134px/2 - 0.5px);
-bottom: 18px;
-background: #0D151E;
-border-radius: 10px;
-  }
-
   .text-form {
-    color: black;
+    color: #172B4D;
     font-family: 'Inter', serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     text-align: center;
+    margin: 120px 8% 1px;
   }
   .form-buttom {
     background-color: #ff6b00;
@@ -420,12 +429,17 @@ border-radius: 10px;
     justify-content: center;
     list-style-type: none;
     margin-left: -2.5rem;
-    margin-top: -0.6rem;
+    margin-top: 1rem;
   }
 
   .last-icons img{
-    height: 0.95rem;
+    height: 1.2rem;
     margin-right: 1rem;
+  }
+
+  form hr {
+    width: 87%;
+    background: #DBD8D7;
   }
 }
 
