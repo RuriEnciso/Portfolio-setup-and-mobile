@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&family=Poppins:wght@500&display=swap');
 body {
   margin: 0 auto;
   background-size: cover;
@@ -244,13 +245,13 @@ body {
   margin-top: -25px;
 }
 
-.input-padron {
+/*.input-padron {
   display: block;
   margin: 0 5% 20px;
   padding: 10px 25px;
   width: 50%;
   border: none;
-}
+}*/
 
 textarea::placeholder {
   left: 12px;
@@ -399,23 +400,17 @@ textarea::placeholder {
     background-color: #fff;
   }
 
-  .input-padron {
-    display: block;
-    margin: 0 5% 20px;
-    padding: 10px 25px;
-    width: 50%;
-    border: none;
-  }
-
-  textarea {
+  
+  /*textarea {
     display: block;
     margin: 0 5% 20px;
     padding: 10px 25px;
     border: none;
     width: 79%;
-  }
+  }*/
 
   .text-form {
+    display: flex;
     color: #172b4d;
     font-family: 'Inter', serif;
     font-weight: 700;
@@ -424,6 +419,45 @@ textarea::placeholder {
     text-align: center;
     margin: 120px 8% 1px;
   }
+  .text-form input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .Contactme input[type=email]{
+    margin-top: 39px;
+
+  }
+  .Contactme {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .Contactme .contacttext{
+    height: 114px;
+    width: 327px;
+    margin: 24px;
+    background-color: #fbf8f7;
+    border: none;
+  }
+
+  .Contactme .contacttext::placeholder {
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+
+  .input-padron{
+    border: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 14px;
+  }
+
+
 
   .form-buttom {
     background-color: #ff6b00;
@@ -433,9 +467,13 @@ textarea::placeholder {
     justify-content: center;
     font-size: 16px;
     font-weight: 700;
-    padding: 12px 24px;
-    margin-left: 30%;
+    margin-left: ;
     cursor: pointer;
+    height: 48px;
+    width: 131px;
+    align-items:center;
+    margin-left: 122px;
+    margin-right: 122px;
   }
 
   .form-buttom:hover {
