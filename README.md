@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>My First Portfolio in Microverse</b></h3>
+  <h3><b>My First Microverse Portfolio</b></h3>
 
 </div>
 
@@ -60,14 +60,12 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-setup-and-mobile-first
-] <a name="about-project"></a>
+# 📖 [My First Microverse Portfolio] <a name="about-project"></a>
 
 <!-- > Describe your project in 1 or 2 sentences.-->
 
-**[Portfolio-setup-and-mobile-first
-]** is a basic responsive website made with html and css
-
+**My First Microverse Portfolio** 
+It is a basic responsive website made with html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,7 +100,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe between 1-3 key features of the application. -->
 
 - **[Responsive]**
-- **[focused on flexbox]**
+- **[focused on flexbox and Grid]**
 <!-- **[future feature]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +119,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+<!--> Describe how a new developer could make use of your project.-->
 
 To get a local copy up and running, follow these steps.
 
@@ -207,7 +205,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project.-->
 
 👤 **Ruri Enciso**
 
@@ -223,11 +221,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project.-->
 
-- [ ] **[future feature]**
-- [ ] **[future feature]**
-- [ ] **[future feature]**
+- [ ] **[social media integrations]**
+- [ ] **[user experience]**
+- [ ] **[performance]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
