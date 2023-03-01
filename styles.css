@@ -39,26 +39,6 @@ body {
   border-radius: 2px;
 }
 
-.homeContent {
-  padding-left: 10%;
-  padding-right: 16%;
-  padding-top: 0.5%;
-  background-image: url(./images/illustration-header-mobile.png);
-  background-repeat: no-repeat;
-  background-color: #1c1a19;
-  background-position-y: 100%;
-  background-position-x: 100%;
-}
-
-.homeContent h1 {
-  font-family: 'Crete Round', serif;
-  font-size: 56px;
-  font-weight: 400px;
-  line-height: 60px;
-  padding-top: 6%;
-  color: #ff6b00;
-}
-
 .subtitle {
   color: #fff5e1;
   margin-top: -5%;
