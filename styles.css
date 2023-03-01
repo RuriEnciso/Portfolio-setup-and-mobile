@@ -336,6 +336,9 @@ textarea::placeholder {
 }
 
 form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   margin: 0 auto;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -362,15 +365,15 @@ textarea {
 }
 
 .form-buttom {
+  align-self: center;
   background-color: #ff6b00;
   color: #fff;
   border: none;
   text-decoration: none;
-  justify-content: center;
   font-size: 16px;
   font-weight: 700;
   padding: 12px 24px;
-  margin-left: 30%;
+  margin-left: 35%;
   cursor: pointer;
 }
 
