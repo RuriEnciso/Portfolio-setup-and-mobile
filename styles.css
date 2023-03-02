@@ -56,8 +56,9 @@ body {
 .middle-main {
   padding-top: 25%;
   background-color: #fff;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .recent-works h2 {
@@ -68,6 +69,11 @@ body {
 .recent-works a {
   display: flex;
   justify-content: center;
+}
+
+.recent-works img{
+  width: 327px;
+  height: 237px;
 }
 
 .first-line {
@@ -266,6 +272,7 @@ textarea::placeholder {
   background-color: #ff6b00;
   color: #fff;
   border: none;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -501,9 +508,7 @@ form hr {
 
   .middle-main {
     padding-top: 7%;
-    background-color: #fff;
-    display: grid;
-    place-items: center;
+    background-color: red;
   }
 
   .line-and-works {
@@ -547,13 +552,63 @@ form hr {
   }
 
   .featured-img {
-    display: flex;
+    /*display: flex;
+    flex-flow: row wrap;
     align-items: flex-start;
     padding: 0;
     gap: 24px;
     width: 1156px;
     height: 448px;
     left: -1px;
-    top: 0;
+    top: 0;*/
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 114px;
+    gap: 24px;
+    
+    width: 1156px;
+    height: 448px;
+    left: -1px;
+    top: 0px;
+  }
+
+  .featured-img img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .right-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: -4%;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: -2%;
+  }
+
+  .post-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .recent-button {
+    margin-right: 65%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container {
+    height: 400px;
+    margin: 0%;
+    padding: 0%;
   }
 }
