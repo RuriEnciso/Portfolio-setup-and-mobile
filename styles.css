@@ -90,6 +90,12 @@ body {
   margin-left: 5%;
 }
 
+.right-block {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+}
+
 .post-description {
   color: #091e42;
   font-family: 'Inter', sans-serif;
@@ -278,15 +284,27 @@ textarea::placeholder {
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
+  width: 150px;
+}
+
+.card-works {
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
 }
 
 .container {
   background-image: url(./images/placeholder.png);
   background-repeat: no-repeat;
-  padding-bottom: 50%;
-  margin: 5%;
-  display: grid;
-  height: 250px;
+  height: 435px;
+  width: 369px;
+  margin: 0.5%;
+  padding: 0%;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .project-tittle {
@@ -311,6 +329,7 @@ textarea::placeholder {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -10px;
+  width: 291px;
 }
 
 .project-tools {
@@ -597,6 +616,7 @@ form hr {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    width: 100%;
   }
 
   .recent-button {
@@ -605,10 +625,22 @@ form hr {
     font-size: 16px;
     line-height: 24px;
   }
+/*
+  .card-works {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+  }
 
   .container {
-    height: 400px;
-    margin: 0%;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
     padding: 0%;
-  }
+    display: flex;
+    flex-flow: column wrap;
+  }*/
 }
