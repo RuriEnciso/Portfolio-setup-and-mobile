@@ -71,7 +71,7 @@ body {
   justify-content: center;
 }
 
-.recent-works img{
+.recent-works img {
   width: 327px;
   height: 237px;
 }
@@ -304,7 +304,8 @@ textarea::placeholder {
   margin: 0.5%;
   padding: 0%;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  align-items: flex-end;
 }
 
 .project-tittle {
@@ -352,13 +353,11 @@ textarea::placeholder {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   height: 48px;
   width: 327px;
   text-align: center;
-  margin-bottom: -100px;
 }
 
 form {
@@ -451,6 +450,10 @@ form hr {
   .dekstop-nav {
     display: none;
   }
+
+  .dekstop-card-works {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -527,7 +530,6 @@ form hr {
 
   .middle-main {
     padding-top: 7%;
-    background-color: red;
   }
 
   .line-and-works {
@@ -571,27 +573,14 @@ form hr {
   }
 
   .featured-img {
-    /*display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    padding: 0;
-    gap: 24px;
-    width: 1156px;
-    height: 448px;
-    left: -1px;
-    top: 0;*/
-  
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
     margin-top: 114px;
     gap: 24px;
-    
     width: 1156px;
     height: 448px;
     left: -1px;
-    top: 0px;
   }
 
   .featured-img img {
@@ -599,7 +588,7 @@ form hr {
     height: 448px;
   }
 
-  .right-block{
+  .right-block {
     display: flex;
     flex-direction: column;
     margin-top: -4%;
@@ -625,8 +614,8 @@ form hr {
     font-size: 16px;
     line-height: 24px;
   }
-/*
-  .card-works {
+
+  .dekstop-card-works {
     gap: 24px;
     display: flex;
     flex-direction: row;
@@ -635,12 +624,97 @@ form hr {
     margin-top: 24px;
   }
 
-  .container {
+  .card-works {
+    display: none;
+  }
+
+  .container-1 {
+    position: relative;
+    background-image: url(./images/desktop/card-1.png);
+    background-repeat: no-repeat;
     height: 435px;
     width: 369px;
     margin: 0.5%;
     padding: 0%;
     display: flex;
-    flex-flow: column wrap;
-  }*/
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .container-2 {
+    background-image: url(./images/desktop/car-2.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .container-3 {
+    background-image: url(./images/desktop/card-3.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .project-button {
+    width: 370px;
+    display: none;
+  }
+
+  .container-2:hover,
+  .container-1:hover,
+  .container-3:hover {
+    background-image: url(./images/desktop/hover-card.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    cursor: pointer;
+  }
+
+  .container-1:hover > .project-tittle,
+  .container-1:hover > .project-description,
+  .container-1:hover > .project-tools {
+    display: none;
+  }
+
+  .container-2:hover > .project-tittle,
+  .container-2:hover > .project-description,
+  .container-2:hover > .project-tools {
+    display: none;
+  }
+
+  .container-3:hover > .project-tittle,
+  .container-3:hover > .project-description,
+  .container-3:hover > .project-tools {
+    display: none;
+  }
+
+  .container-1:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
+
+  .container-2:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
+
+  .container-3:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
 }
