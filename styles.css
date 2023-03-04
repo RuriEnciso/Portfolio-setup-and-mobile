@@ -112,9 +112,6 @@ body {
 .aboutMe {
   background-image: url(./images/middle-background.png);
   background-color: #1c1a19;
-  /* padding-left: 6%;
-  padding-right: 6%;
-  padding-bottom: 35%; */
   background-repeat: no-repeat;
   background-position-y: 21%;
   background-position-x: 100%;
@@ -127,10 +124,7 @@ body {
   font-size: 72px;
   line-height: 88px;
   margin: 1%;
-  /* padding-top: 6%; */
   color: #ff6b00;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .aboutMe-description {
@@ -154,11 +148,7 @@ body {
 
 .abouteMe-line {
   position: relative;
-  height: 0px;
-  left: 0px;
-  right: 0px;
-  /* top: calc(0% - 0px/2 + 0.5px); */
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   width: 80%;
 }
 
@@ -185,8 +175,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  /* gap: 24px; */
   width: 225.46px;
   height: auto;
 }
@@ -202,18 +190,31 @@ body {
   height: 41.46px;
 }
 
+.diamond {
+  width: 18px;
+  height: 18px;
+  background: #f55800;
+  transform: rotate(-45deg);
+}
+
 .rectangle {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
-  transform: rotate(-45deg);
+  background: #ff6b00;
+}
+
+.round {
+  width: 18px;
+  height: 18px;
+  background: #f55800;
+  border-radius: 150px;
 }
 
 .framework-text {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .tools-lists {
@@ -222,7 +223,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -236,9 +237,7 @@ body {
 
 .input-padron {
   display: block;
-  margin: 0 5% 20px;
-  padding: 10px 25px;
-  width: 50%;
+  margin: 7% 5% 11px;
   border: none;
 }
 
@@ -403,23 +402,9 @@ textarea::placeholder {
   text-align: center;
 }
 
-form {
+.website-form {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  background-color: #fff;
-}
-
-textarea {
-  display: block;
-  margin: 0 5% 20px;
-  padding: 10px 25px;
-  border: none;
-  width: 79%;
-  background: #fbf8f7;
 }
 
 .text-form {
@@ -432,17 +417,33 @@ textarea {
   margin: 120px 8% 1px;
 }
 
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 120px 24px;
+}
+
+textarea {
+  display: block;
+  border: none;
+  width: 95%;
+  background: #fbf8f7;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+
 .form-buttom {
   align-self: center;
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   padding: 12px 24px;
-  margin-left: 35%;
   cursor: pointer;
+  width: 150px;
+  margin-top: 30px;
 }
 
 .form-buttom:hover {
@@ -485,7 +486,12 @@ textarea {
 }
 
 form hr {
-  width: 87%;
+  width: 100%;
+  background: #dbd8d7;
+}
+
+.line-2 {
+  width: 100%;
   background: #dbd8d7;
 }
 
@@ -776,10 +782,6 @@ form hr {
     padding: 0%;
   }
 
-  .aboutMe-description {
-    margin: 16px 0px;
-  }
-
   .languages {
     display: flex;
     flex-flow: row wrap;
@@ -787,5 +789,20 @@ form hr {
     align-items: flex-start;
     padding-top: 120px;
     height: auto;
+  }
+
+  .text-form {
+    width: 30%;
+    text-align: start;
+    margin: 120px 3% 1px 10%;
+  }
+
+  form {
+    width: 48%;
+    padding: 88px 24px;
+  }
+
+  .form-buttom {
+    align-self: flex-start;
   }
 }
