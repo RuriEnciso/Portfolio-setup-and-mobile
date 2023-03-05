@@ -454,19 +454,6 @@ textarea {
   cursor: pointer;
 }
 
-.form-buttom:active {
-  background-color: #ff6b00;
-  color: #fff;
-  border: none;
-  text-decoration: none;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 12px 24px;
-  margin-left: 30%;
-  cursor: pointer;
-}
-
 .form-buttom:disabled {
   color: #5b5957;
   background: #f4f1f0;
@@ -585,40 +572,19 @@ form hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    margin-left: 7%;
-    gap: 24px;
-    width: 1133px;
-    height: 52px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .line-and-works h2 {
-    width: 315px;
-    height: 52px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #091e42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .first-line {
-    margin: auto;
-    width: 794px;
-    height: 0;
+    width: 62%;
     border: 1px solid #212121;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin: 4%;
   }
 
   .featured-img {
@@ -632,10 +598,20 @@ form hr {
     left: -1px;
   }
 
+  .placeholder-img {
+    background-image: url(./images/Img-Placeholder.png);
+    width: 664px;
+    height: 428px;
+  }
+
   .featured-img img {
+    display: none;
+  }
+
+  /* .featured-img img {
     width: 684px;
     height: 448px;
-  }
+  } */
 
   .right-block {
     display: flex;
