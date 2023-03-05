@@ -781,4 +781,19 @@ form hr {
   .form-buttom {
     align-self: flex-start;
   }
+
+  .aboutMe-tittle {
+    animation-name: mianimacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes mianimacion {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(200px);
+    }
+  }
 }
