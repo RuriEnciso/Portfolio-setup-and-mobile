@@ -792,8 +792,41 @@ form hr {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(200px);
+    }
+  }
+
+  .envelope {
+    animation-name: envelope-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes envelope-animation {
+    from {
+      transform: rotate(0);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .menuLogo {
+    animation-name: menulogo-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes menulogo-animation {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.5);
     }
   }
 }
