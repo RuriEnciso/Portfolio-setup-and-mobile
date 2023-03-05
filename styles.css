@@ -56,8 +56,9 @@ body {
 .middle-main {
   padding-top: 25%;
   background-color: #fff;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .recent-works h2 {
@@ -68,6 +69,11 @@ body {
 .recent-works a {
   display: flex;
   justify-content: center;
+}
+
+.recent-works img {
+  width: 327px;
+  height: 237px;
 }
 
 .first-line {
@@ -82,6 +88,12 @@ body {
   color: #091e42;
   font-family: 'Crete Round', serif;
   margin-left: 5%;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
 }
 
 .post-description {
@@ -100,12 +112,9 @@ body {
 .aboutMe {
   background-image: url(./images/middle-background.png);
   background-color: #1c1a19;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-bottom: 35%;
   background-repeat: no-repeat;
-  background-position-y: 80%;
-  background-position-x: 90%;
+  background-position-y: 21%;
+  background-position-x: 100%;
 }
 
 .aboutMe-tittle {
@@ -114,10 +123,8 @@ body {
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
-  padding-top: 6%;
+  margin: 1%;
   color: #ff6b00;
-  display: flex;
-  justify-content: center;
 }
 
 .aboutMe-description {
@@ -127,9 +134,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: -10px;
 }
 
 .aboutMe-button {
@@ -140,51 +144,100 @@ body {
   display: inline-block;
   font-size: 16px;
   padding: 12px 24px;
-  margin-left: 5%;
 }
 
 .abouteMe-line {
-  width: 87%;
-  border: 0.5px solid #fff;
+  position: relative;
+  border: 1px solid #fff;
+  width: 80%;
+}
+
+.about {
+  height: 19%;
   display: flex;
-  justify-content: center;
-  margin-top: 60%;
-  margin-bottom: -15%;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  align-content: center;
+  padding: 120px 24px;
+  gap: 10px;
 }
 
 .languages {
-  background-color: #1c1a19;
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  height: 1241.46px;
   color: #fff;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 225.46px;
+  height: auto;
+}
+
+.language-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 225.46px;
+  height: 41.46px;
+}
+
+.diamond {
+  width: 18px;
+  height: 18px;
+  background: #f55800;
+  transform: rotate(-45deg);
+}
+
+.rectangle {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+}
+
+.round {
+  width: 18px;
+  height: 18px;
+  background: #f55800;
+  border-radius: 150px;
+}
+
+.framework-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Inter', sans-serif;
 }
 
 .tools-lists {
   list-style-type: none;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  align-items: center;
 }
 
 .tools-lists li {
   padding-bottom: 10px;
 }
 
-.language-icon img {
-  display: inline-block;
-  margin-right: 0.5em;
-  width: 15px;
-  height: 15px;
-}
-
-.framework-text {
-  display: grid;
-  justify-content: center;
-  margin-top: -25px;
-}
-
 .input-padron {
   display: block;
-  margin: 0 5% 20px;
-  padding: 10px 25px;
-  width: 50%;
+  margin: 7% 5% 11px;
   border: none;
 }
 
@@ -266,20 +319,35 @@ textarea::placeholder {
   background-color: #ff6b00;
   color: #fff;
   border: none;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   padding: 12px 24px;
   margin-left: 5%;
+  width: 150px;
+}
+
+.card-works {
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
 }
 
 .container {
   background-image: url(./images/placeholder.png);
   background-repeat: no-repeat;
-  padding-bottom: 50%;
-  margin: 5%;
-  display: grid;
-  height: 250px;
+  background-size: cover;
+  height: 435px;
+  width: 369px;
+  margin: 0.5%;
+  padding: 0%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
 }
 
 .project-tittle {
@@ -304,6 +372,7 @@ textarea::placeholder {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -10px;
+  width: 291px;
 }
 
 .project-tools {
@@ -326,32 +395,16 @@ textarea::placeholder {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   height: 48px;
-  width: 327px;
+  width: 100%;
   text-align: center;
-  margin-bottom: -100px;
 }
 
-form {
+.website-form {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  background-color: #fff;
-}
-
-textarea {
-  display: block;
-  margin: 0 5% 20px;
-  padding: 10px 25px;
-  border: none;
-  width: 79%;
-  background: #fbf8f7;
 }
 
 .text-form {
@@ -364,17 +417,33 @@ textarea {
   margin: 120px 8% 1px;
 }
 
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 120px 24px;
+}
+
+textarea {
+  display: block;
+  border: none;
+  width: 95%;
+  background: #fbf8f7;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+
 .form-buttom {
   align-self: center;
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   padding: 12px 24px;
-  margin-left: 35%;
   cursor: pointer;
+  width: 150px;
+  margin-top: 30px;
 }
 
 .form-buttom:hover {
@@ -382,19 +451,6 @@ textarea {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-  cursor: pointer;
-}
-
-.form-buttom:active {
-  background-color: #ff6b00;
-  color: #fff;
-  border: none;
-  text-decoration: none;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 12px 24px;
-  margin-left: 30%;
   cursor: pointer;
 }
 
@@ -417,12 +473,21 @@ textarea {
 }
 
 form hr {
-  width: 87%;
+  width: 100%;
+  background: #dbd8d7;
+}
+
+.line-2 {
+  width: 100%;
   background: #dbd8d7;
 }
 
 @media screen and (max-width: 768px) {
   .dekstop-nav {
+    display: none;
+  }
+
+  .dekstop-card-works {
     display: none;
   }
 }
@@ -501,59 +566,219 @@ form hr {
 
   .middle-main {
     padding-top: 7%;
-    background-color: #fff;
-    display: grid;
-    place-items: center;
   }
 
   .line-and-works {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    margin-left: 7%;
-    gap: 24px;
-    width: 1133px;
-    height: 52px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .line-and-works h2 {
-    width: 315px;
-    height: 52px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #091e42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .first-line {
-    margin: auto;
-    width: 794px;
-    height: 0;
+    width: 62%;
     border: 1px solid #212121;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin: 4%;
   }
 
   .featured-img {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    padding: 0;
+    margin-top: 114px;
     gap: 24px;
     width: 1156px;
     height: 448px;
     left: -1px;
-    top: 0;
+  }
+
+  .placeholder-img {
+    background-image: url(./images/Img-Placeholder.png);
+    width: 664px;
+    height: 428px;
+  }
+
+  .featured-img img {
+    display: none;
+  }
+
+  /* .featured-img img {
+    width: 684px;
+    height: 448px;
+  } */
+
+  .right-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4%;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .post-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .recent-button {
+    margin-right: 65%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .dekstop-card-works {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .card-works {
+    display: none;
+  }
+
+  .container-1 {
+    position: relative;
+    background-image: url(./images/desktop/card-1.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .container-2 {
+    background-image: url(./images/desktop/car-2.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .container-3 {
+    background-image: url(./images/desktop/card-3.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
+  .project-button {
+    width: 370px;
+    display: none;
+  }
+
+  .container-2:hover,
+  .container-1:hover,
+  .container-3:hover {
+    background-image: url(./images/desktop/hover-card.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    width: 369px;
+    margin: 0.5%;
+    padding: 0%;
+    cursor: pointer;
+  }
+
+  .container-1:hover > .project-tittle,
+  .container-1:hover > .project-description,
+  .container-1:hover > .project-tools {
+    display: none;
+  }
+
+  .container-2:hover > .project-tittle,
+  .container-2:hover > .project-description,
+  .container-2:hover > .project-tools {
+    display: none;
+  }
+
+  .container-3:hover > .project-tittle,
+  .container-3:hover > .project-description,
+  .container-3:hover > .project-tools {
+    display: none;
+  }
+
+  .container-1:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
+
+  .container-2:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
+
+  .container-3:hover > .project-button {
+    align-self: flex-end;
+    display: block;
+    cursor: pointer;
+  }
+
+  .aboutMe {
+    background-image: url(./images/desktop/Ilustration-aboutMe.png);
+    background-position-y: 13%;
+    background-position-x: 100%;
+  }
+
+  .about {
+    height: 582px;
+    width: 37%;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    padding: 0%;
+  }
+
+  .languages {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 120px;
+    height: auto;
+  }
+
+  .text-form {
+    width: 30%;
+    text-align: start;
+    margin: 120px 3% 1px 10%;
+  }
+
+  form {
+    width: 48%;
+    padding: 88px 24px;
+  }
+
+  .form-buttom {
+    align-self: flex-start;
   }
 }
