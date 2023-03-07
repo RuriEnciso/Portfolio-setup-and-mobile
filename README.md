@@ -111,7 +111,7 @@ It is a basic responsive website made with html and css
 
 <!-- > Add a link to your deployed project. -->
 
-- [ my future Live Demo Link](https://yourdeployedapplicationlink.com)
+- [ my Live Demo Link](https://rurienciso.github.io/Portfolio-setup-and-mobile/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ It is a basic responsive website made with html and css
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!--> Describe how a new developer could make use of your project.-->
+<!-- > Describe how a new developer could make use of your project. -->
 
 To get a local copy up and running, follow these steps.
 
