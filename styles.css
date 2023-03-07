@@ -1,6 +1,6 @@
 body {
-  margin: 0 auto;
-  background-size: cover;
+  margin: auto;
+  width: auto;
 }
 
 .mainMenu {
@@ -61,6 +61,10 @@ body {
   justify-content: center;
 }
 
+.recent-works {
+  width: 100%;
+}
+
 .recent-works h2 {
   display: flex;
   justify-content: center;
@@ -71,11 +75,6 @@ body {
   justify-content: center;
 }
 
-.recent-works img {
-  width: 327px;
-  height: 237px;
-}
-
 .first-line {
   width: 87%;
   border: 0.5px solid #212121;
@@ -84,10 +83,30 @@ body {
   margin-bottom: 15%;
 }
 
-.recent-works h3 {
+.right-tittle {
   color: #091e42;
   font-family: 'Crete Round', serif;
   margin-left: 5%;
+}
+
+.featured-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 114px;
+  gap: 24px;
+}
+
+.gym-fit-container {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mobile-gymFit-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .right-block {
@@ -478,7 +497,7 @@ form hr {
 }
 
 .line-2 {
-  width: 100%;
+  width: 98%;
   background: #dbd8d7;
 }
 
@@ -488,6 +507,10 @@ form hr {
   }
 
   .dekstop-card-works {
+    display: none;
+  }
+
+  .dekstop-gymFit-img {
     display: none;
   }
 }
@@ -571,7 +594,9 @@ form hr {
   .line-and-works {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 1%;
   }
 
   .line-and-works h2 {
@@ -584,59 +609,42 @@ form hr {
   .first-line {
     width: 62%;
     border: 1px solid #212121;
-    margin: 4%;
+    margin: 4% 0 4% 0;
   }
 
   .featured-img {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 114px;
-    gap: 24px;
-    width: 1156px;
-    height: 448px;
-    left: -1px;
+    flex-wrap: nowrap;
   }
 
-  .placeholder-img {
-    background-image: url(./images/Img-Placeholder.png);
-    width: 664px;
-    height: 428px;
-  }
-
-  .featured-img img {
+  .mobile-gymFit-img {
     display: none;
   }
 
-  /* .featured-img img {
-    width: 684px;
-    height: 448px;
-  } */
-
-  .right-block {
-    display: flex;
-    flex-direction: column;
-    margin-top: -4%;
+  .dekstop-gymFit-img {
+    max-width: 100%;
+    height: auto;
   }
 
-  h3 {
+  .right-tittle {
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+    margin: initial;
   }
 
   .post-description {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    width: 100%;
+    margin: initial;
+  }
+
+  .tools {
+    margin-left: -37px;
   }
 
   .recent-button {
-    margin-right: 65%;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    margin: initial;
   }
 
   .dekstop-card-works {
