@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   padding-left: 10%;
 }
@@ -159,10 +159,11 @@ body {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 17px;
   padding: 12px 24px;
+  cursor: pointer;
 }
 
 .abouteMe-line {
@@ -295,7 +296,7 @@ textarea::placeholder {
 }
 
 /* Here was the begin for the first mobile version media query */
-.homeContent h1 {
+.homeContent h2 {
   font-family: 'Crete Round', serif;
   font-size: 56px;
   line-height: 64px;
@@ -341,7 +342,9 @@ textarea::placeholder {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 17px;
   padding: 12px 24px;
   margin-left: 5%;
   width: 150px;
@@ -558,7 +561,7 @@ form hr {
     background-position-y: -15%;
   }
 
-  .homeContent h1 {
+  .homeContent h2 {
     width: 460px;
     height: 160px;
     font-family: 'Crete Round', sans-serif;
@@ -830,11 +833,11 @@ form hr {
 
   @keyframes menulogo-animation {
     from {
-      transform: scale(1);
+      transform: scale(0.5);
     }
 
     to {
-      transform: scale(1.2);
+      transform: scale(1);
     }
   }
 }
