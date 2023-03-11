@@ -111,9 +111,11 @@ It is a basic responsive website made with html and css
 
 <!-- > Add a link to your deployed project. -->
 
-[![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/50c99a3d9b13472385b3d8424201c3fa-with-play.gif)](https://www.loom.com/share/50c99a3d9b13472385b3d8424201c3fa)
+- [ Website Live Demo Link](https://rurienciso.github.io/Portfolio-setup-and-mobile/)
 
-- [ my Live Demo Link](https://rurienciso.github.io/Portfolio-setup-and-mobile/)
+- Project presentation video:
+
+[![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/50c99a3d9b13472385b3d8424201c3fa-with-play.gif)](https://www.loom.com/share/50c99a3d9b13472385b3d8424201c3fa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
