@@ -894,20 +894,4 @@ form hr {
       transform: rotate(360deg);
     }
   }
-
-  .menuLogo {
-    animation-name: menulogo-animation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes menulogo-animation {
-    from {
-      transform: scale(0.5);
-    }
-
-    to {
-      transform: scale(1);
-    }
-  }
 }
