@@ -398,7 +398,44 @@ textarea::placeholder {
   margin-top: 24px;
 }
 
-.container {
+.container-1 {
+  position: relative;
+  background-image: url(./images/desktop/card-1.png);
+  background-repeat: no-repeat;
+  height: 435px;
+  width: 369px;
+  margin: 0.5%;
+  padding: 0%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.container-2 {
+  background-image: url(./images/desktop/car-2.png);
+  background-repeat: no-repeat;
+  height: 435px;
+  width: 369px;
+  margin: 0.5%;
+  padding: 0%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.container-3 {
+  background-image: url(./images/desktop/card-3.png);
+  background-repeat: no-repeat;
+  height: 435px;
+  width: 369px;
+  margin: 0.5%;
+  padding: 0%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+/* .container {
   background-image: url(./images/placeholder.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -409,7 +446,7 @@ textarea::placeholder {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-end;
-}
+} */
 
 .project-tittle {
   color: #fff;
@@ -444,7 +481,7 @@ textarea::placeholder {
   font-family: 'Inter', sans-serif;
 }
 
-.project-tools li {
+.project-tools-list {
   border: 1px solid black;
   padding: 8px;
   margin-right: 10px;
@@ -544,13 +581,6 @@ form hr {
 }
 
 @media screen and (max-width: 768px) {
-  /* .dekstop-nav {
-    display: none;
-  } */
-
-  .dekstop-card-works {
-    display: none;
-  }
 
   .dekstop-gymFit-img {
     display: none;
@@ -720,56 +750,6 @@ form hr {
     margin: initial;
   }
 
-  .dekstop-card-works {
-    gap: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 24px;
-  }
-
-  .card-works {
-    display: none;
-  }
-
-  .container-1 {
-    position: relative;
-    background-image: url(./images/desktop/card-1.png);
-    background-repeat: no-repeat;
-    height: 435px;
-    width: 369px;
-    margin: 0.5%;
-    padding: 0%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-end;
-  }
-
-  .container-2 {
-    background-image: url(./images/desktop/car-2.png);
-    background-repeat: no-repeat;
-    height: 435px;
-    width: 369px;
-    margin: 0.5%;
-    padding: 0%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-end;
-  }
-
-  .container-3 {
-    background-image: url(./images/desktop/card-3.png);
-    background-repeat: no-repeat;
-    height: 435px;
-    width: 369px;
-    margin: 0.5%;
-    padding: 0%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-end;
-  }
-
   .project-button {
     width: 370px;
     display: none;
@@ -851,7 +831,7 @@ form hr {
   .text-form {
     width: 30%;
     text-align: start;
-    margin: 120px 3% 1px 10%;
+    margin: 120pxgit log 3% 1px 10%;
   }
 
   form {
@@ -892,22 +872,6 @@ form hr {
 
     to {
       transform: rotate(360deg);
-    }
-  }
-
-  .menuLogo {
-    animation-name: menulogo-animation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes menulogo-animation {
-    from {
-      transform: scale(0.5);
-    }
-
-    to {
-      transform: scale(1);
     }
   }
 }
